@@ -1,6 +1,7 @@
 ---
-title: "Posts by Category"
+title: "Новини по категории"
 layout: categories
 permalink: /categories/
-author_profile: true
+sidebar:
+  nav: "archive"
 ---
