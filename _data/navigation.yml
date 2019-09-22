@@ -1,12 +1,28 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Архив"
+    url: /year-archive/
+
+archive:
+  - title: Новини
+    children:
+      - title: "По години"
+        url: /year-archive/
+      - title: "По категории"
+        url: /categories/
+      - title: "По тагове"
+        url: /tags/
+  - title: За курса
+    children:
+      - title: "Тази година"
+        url: /about/years/2019-2020
+      - title: "През всички години"
+        url: /about/years/
+
+# years:
+#   - title: За курса
+#     children:
+#       - title: "Тази година"
+#         url: /about/years/2019-2020
+#       - title: "През всички години"
+#         url: /about/years/
